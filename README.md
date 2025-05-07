@@ -1,6 +1,5 @@
-# Task Management System
-## (Система управления заданиями)
-
+# User Subscription Service
+(Сервис подписки пользователей)
 Тестовое задание.
 
 *****************************
@@ -51,13 +50,13 @@ docker-compose up --build
 
 Доступные эндпойнты:
 
-* POST`http://localhost:8080/api/v1/users` - создать пользователя
-* GET`http://localhost:8080/api/v1/POST/users/` - получить информацию о пользователе
-* PUT`http://localhost:8080/api/v1/users/{id}` - обновить пользователя
-* DELETE http://localhost:8080/api/v1/users/users/{id} - удалить пользователя
+* POST `http://localhost:8080/api/v1/users` - создать пользователя
+* GET `http://localhost:8080/api/v1/users/{id}` - получить информацию о пользователе
+* PUT `http://localhost:8080/api/v1/users/{id}` - обновить пользователя
+* DELETE `http://localhost:8080/api/v1/users/{id}` - удалить пользователя
 
-* POST `http://localhost:8080/api/v1/users/{id}/subscriptions - добавить подписку
-* GET `http://localhost:8080/api/v1/users/{id}/subscriptions - получить подписки пользователя
-* DELETE `http://localhost:8080/api/v1/users/{id}/subscriptions/{sub_id} - удалить подписку\
+* POST `http://localhost:8080/api/v1/users/{id}/subscriptions` - добавить подписку
+* GET `http://localhost:8080/api/v1/users/{id}/subscriptions` - получить подписки пользователя
+* DELETE `http://localhost:8080/api/v1/users/{id}/subscriptions/{sub_id}` - удалить подписку
 
-* GET http://localhost:8080/subscriptions/top - получить ТОП-3 популярных подписок
+* GET `http://localhost:8080/subscriptions/top` - получить ТОП-3 популярных подписок
